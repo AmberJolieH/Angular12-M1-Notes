@@ -10,3 +10,15 @@
 
 5. ng g component components/"component name" - creates new component and file structure
 
+
+
+# API calls in Angular 
+
+## make a service
+
+    ng g service "service name"
+
+    - generates two files 
+        - src/app/"service name".service.spec.ts
+        - src/app/"service name".service.ts
+        
