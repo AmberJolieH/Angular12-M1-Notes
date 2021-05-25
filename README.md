@@ -2,7 +2,7 @@
 
 1. npm install -g @angular/cli    ((install Angular))
 
-2. ng --version  ((check version))  // do this in your root directory as it will create a root project folder for you and put
+2. ng --version  ((check version))  // do this in your root directory as it will create a root project folder for you
 
 3. ng new "file name"        ((does complete file setup and all files needed for you))
 
