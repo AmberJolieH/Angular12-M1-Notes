@@ -21,4 +21,7 @@
     - generates two files 
         - src/app/"service name".service.spec.ts
         - src/app/"service name".service.ts
-        
+
+## update app.modules.ts 
+
+    import {}
