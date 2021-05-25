@@ -24,4 +24,6 @@
 
 ## update app.modules.ts 
 
-    import {}
+    import {HttpClientModule} from '@angular/common/http'
+
+    also dont forget to add HttpClientModule to Imports: (within @ngModule)
