@@ -12,6 +12,18 @@
      ng new "file name"        ((does complete file setup and all files needed for you))
     
     ----> do this in your root directory as it will create a root project folder for you
+    
+    - app.component.css file contains the style sheets of the main app component. Styles can be defined locally for each component
+   
+    - app.component.html contains the HTML template of the component
+    
+    - app.component.ts file contains the code controlling the view
+    
+    - app.module.ts defines which modules your app will use
+    
+    - app-routing.module.ts is set up to define the routes for your application
+   
+    - app.component.spec.ts contains a skeleton for unit testing the app component
 
 ## 4. get app running 
 
@@ -19,11 +31,11 @@
 
 ## 5. create components
     
-    ng g component components/"component name" - creates new component and file structure
+    ng g c componentName - creates new component and file structure
 
-## API calls in Angular 
+## 6.  API calls in Angular 
 
-### make a service
+###  * make a service
 
     ng g service "service name"
 
@@ -31,13 +43,13 @@
         - src/app/"service name".service.spec.ts
         - src/app/"service name".service.ts
 
-### update app.modules.ts 
+### * update app.modules.ts 
 
     import {HttpClientModule} from '@angular/common/http'
 
     also dont forget to add HttpClientModule to Imports: (within @ngModule)
 
-### update "service name".service.ts
+### * update "service name".service.ts
 
     import {HttpClient} from '@angular/common/http'
 
